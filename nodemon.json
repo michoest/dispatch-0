@@ -1,0 +1,13 @@
+{
+  "ignore": [
+    "db.json",
+    "logs/*",
+    "*.log",
+    "node_modules/*",
+    "dummy-services/*/db.json"
+  ],
+  "watch": [
+    "src/**/*"
+  ],
+  "ext": "js,json"
+}
