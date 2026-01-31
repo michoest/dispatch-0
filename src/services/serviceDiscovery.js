@@ -7,7 +7,7 @@ let healthCheckTimer;
 
 async function performHealthCheck(service) {
   try {
-    const response = await axios.get(`${service.baseUrl}/health`, {
+    const response = await axios.get(`${service.baseUrl}/dispatch/health`, {
       timeout: 3000
     });
 
